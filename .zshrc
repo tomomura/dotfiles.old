@@ -1,11 +1,11 @@
 # Path to your oh-my-zsh configuration.
-# ZSH=$HOME/.oh-my-zsh
+ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-# ZSH_THEME="robbyrussell"
+ZSH_THEME="robbyrussell"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -33,8 +33,8 @@ DISABLE_AUTO_TITLE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 
-# plugins=(brew bundler capistrano coffee command-not-found extract gem git git-flow github heroku history history-substring-search lein mvn node npm osx pip python rails rails3 rake rbenv redis-cli rsync ruby svn thor urltools vagrant vi-mode vundle yum)
-# source $ZSH/oh-my-zsh.sh
+plugins=(brew bundler capistrano coffee command-not-found extract gem git git-flow github heroku history history-substring-search lein mvn node npm osx pip python rails rake rbenv redis-cli rsync ruby svn thor urltools vagrant vi-mode vundle yum)
+source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 source $HOME/.zshrc.custom
