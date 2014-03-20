@@ -121,8 +121,8 @@ endif
 
 " Searching/Moving{{{
   " smooth_scroll.vim : スクロールを賢く
-  " NeoBundle 'Smooth-Scroll'
-  NeoBundle 'yuroyoro/smooth_scroll.vim'
+  NeoBundle 'Smooth-Scroll'
+  " NeoBundle 'yuroyoro/smooth_scroll.vim'
 
   " vim-smartword : 単語移動がスマートな感じで
   NeoBundle 'smartword'

@@ -166,8 +166,8 @@ endif
 "------------------------------------
 " smooth_scroll.vim
 "------------------------------------
-map  :call SmoothScroll("d",1, 1)<CR>
-map  :call SmoothScroll("u",1, 1)<CR>
+" map  :call SmoothScroll("d",1, 1)<CR>
+" map  :call SmoothScroll("u",1, 1)<CR>
 
 "------------------------------------
 " gundo.Vim
