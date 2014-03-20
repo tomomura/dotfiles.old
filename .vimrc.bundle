@@ -100,6 +100,8 @@ endif
   " 補完 neocomplcache.vim : 究極のVim的補完環境
   NeoBundle 'Shougo/neocomplcache'
 
+  NeoBundle 'Shougo/neosnippet-snippets'
+
   " neocomplcacheのsinpet補完
   NeoBundle 'Shougo/neosnippet.git'
 
