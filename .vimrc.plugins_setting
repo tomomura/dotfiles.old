@@ -33,7 +33,7 @@ let g:Align_xstrlen = 3
 " VTreeExplorer
 "------------------------------------
 " 縦に表示する
-let g:treeExplVertical=1
+" let g:treeExplVertical=1
 
 "------------------------------------
 " NERD_commenter.vim
@@ -124,26 +124,26 @@ nnoremap <Leader>l<Space> :BufExplorer<CR>
 "------------------------------------
 " VTreeExplorer
 "------------------------------------
-let g:treeExplVertical=1
-"<Leader>t<Space>でディレクトリツリー表示
-noremap <Leader>t<Space> :VSTreeExplore<CR>
-"分割したウィンドウのサイズ
-let g:treeExplWinSize=30
+" let g:treeExplVertical=1
+" "<Leader>t<Space>でディレクトリツリー表示
+" noremap <Leader>t<Space> :VSTreeExplore<CR>
+" "分割したウィンドウのサイズ
+" let g:treeExplWinSize=30
 
 "------------------------------------
 " DumbBuf.vim
 "------------------------------------
 "<Leader>b<Space>でBufferList
-let dumbbuf_hotkey = '<Leader>b<Space>'
-let dumbbuf_mappings = {
-    \ 'n': {
-        \'<Esc>': { 'opt': '<silent>', 'mapto': ':<C-u>close<CR>' }
-    \}
-\}
-let dumbbuf_single_key  = 1
-let dumbbuf_updatetime  = 1    " &updatetimeの最小値
-let dumbbuf_wrap_cursor = 0
-let dumbbuf_remove_marked_when_close = 1
+" let dumbbuf_hotkey = '<Leader>b<Space>'
+" let dumbbuf_mappings = {
+    " \ 'n': {
+        " \'<Esc>': { 'opt': '<silent>', 'mapto': ':<C-u>close<CR>' }
+    " \}
+" \}
+" let dumbbuf_single_key  = 1
+" let dumbbuf_updatetime  = 1    " &updatetimeの最小値
+" let dumbbuf_wrap_cursor = 0
+" let dumbbuf_remove_marked_when_close = 1
 
 "------------------------------------
 " vim-indent-guides
@@ -436,7 +436,7 @@ autocmd BufReadPost *_spec.rb call RSpecQuickrun()
 "------------------------------------
 " Pydiction
 "------------------------------------
-let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
+" let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
 
 "------------------------------------
 " Syntastic
@@ -451,11 +451,11 @@ let g:syntastic_auto_loc_list=1
 "------------------------------------
 " toggle.vim
 "------------------------------------
-imap <C-A> <Plug>ToggleI
-nmap <C-A> <Plug>ToggleN
-vmap <C-A> <Plug>ToggleV
+" imap <C-A> <Plug>ToggleI
+" nmap <C-A> <Plug>ToggleN
+" vmap <C-A> <Plug>ToggleV
 
-let g:toggle_pairs = { 'and':'or', 'or':'and', 'if':'unless', 'unless':'if', 'yes':'no', 'no':'yes', 'enable':'disable', 'disable':'enable', 'pick':'reword', 'reword':'fixup', 'fixup':'squash', 'squash':'edit', 'edit':'exec', 'exec':'pick' }
+" let g:toggle_pairs = { 'and':'or', 'or':'and', 'if':'unless', 'unless':'if', 'yes':'no', 'no':'yes', 'enable':'disable', 'disable':'enable', 'pick':'reword', 'reword':'fixup', 'fixup':'squash', 'squash':'edit', 'edit':'exec', 'exec':'pick' }
 
 
 

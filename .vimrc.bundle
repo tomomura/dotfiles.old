@@ -19,24 +19,24 @@ endif
   " NeoBundle 'yuroyoro/vim-autoclose'
 
   " -- でメソッドチェーン整形
-  NeoBundle 'c9s/cascading.vim'
+  " NeoBundle 'c9s/cascading.vim'
 
   " visually indent guide
   NeoBundle 'nathanaelkane/vim-indent-guides'
 
   " XMLとかHTMLとかの編集機能を強化する
-  NeoBundle 'xmledit'
+  " NeoBundle 'xmledit'
 
   " Align : 高機能整形・桁揃えプラグイン
   NeoBundle 'Align'
 
   " フィルタリングと整形
-  NeoBundle 'godlygeek/tabular'
+  " NeoBundle 'godlygeek/tabular'
 
   " マルチバイト対応の整形
-  NeoBundle 'h1mesuke/vim-alignta'
+  " NeoBundle 'h1mesuke/vim-alignta'
 
-  " YankRing.vim : ヤンクの履歴を管理し、順々に参照、出力できるようにする
+  " Yankring.Vim : ヤンクの履歴を管理し、順々に参照、出力できるようにする
   " NeoBundle 'YankRing.vim'
 
   " undo履歴を追える (need python support)
@@ -46,7 +46,7 @@ endif
   NeoBundle 'tpope/surround.vim'
 
   " smartchr.vim : ==などの前後を整形
-  NeoBundle 'smartchr'
+  " NeoBundle 'smartchr'
 
   " vim-operator-user : 簡単にoperatorを定義できるようにする
   NeoBundle 'operator-user'
@@ -89,7 +89,7 @@ endif
   " NeoBundle 'yuroyoro/monday'
 
   " <C-a>でtrue/false切替。他色々
-  NeoBundle 'taku-o/vim-toggle'
+  " NeoBundle 'taku-o/vim-toggle'
 
 " }}}
 
@@ -104,6 +104,8 @@ endif
 
   " neocomplcacheのsinpet補完
   NeoBundle 'Shougo/neosnippet.git'
+
+  NeoBundle 'Shougo/neomru.vim'
 
   " various langueages snippets
   NeoBundle 'honza/snipmate-snippets'
@@ -161,7 +163,7 @@ endif
   NeoBundle 'thinca/vim-ref'
 
   " SQLUtilities : SQL整形、生成ユーティリティ
-  NeoBundle 'SQLUtilities'
+  " NeoBundle 'SQLUtilities'
 
   " vim-ruby : VimでRubyを扱う際の最も基本的な拡張機能
   NeoBundle 'vim-ruby/vim-ruby'
@@ -170,7 +172,7 @@ endif
   NeoBundle 'tpope/vim-rails'
 
   " Pydiction : Python用の入力補完
-  NeoBundle 'Pydiction'
+  " NeoBundle 'Pydiction'
 
   " ソースコード上のメソッド宣言、変数宣言の一覧を表示
   NeoBundle 'taglist.vim'
@@ -228,7 +230,7 @@ endif
 
 " Buffer {{{
   " DumbBuf.vim : quickbufっぽくbufferを管理。 "<Leader>b<Space>でBufferList
-  NeoBundle 'DumbBuf'
+  " NeoBundle 'DumbBuf'
 
   " minibufexpl.vim : タブエディタ風にバッファ管理ウィンドウを表示
   NeoBundle 'minibufexpl.vim'
@@ -237,7 +239,7 @@ endif
   NeoBundle 'The-NERD-tree'
 
   " vtreeexplorer.vim : ツリー状にファイルやディレクトリの一覧を表示
-  NeoBundle 'vtreeexplorer'
+  " NeoBundle 'vtreeexplorer'
 " }}}
 
 
@@ -332,5 +334,7 @@ endif
 " }}}
 "
 " NeoBundle 'gmarik/vundle'
+
+  " NeoBundle 'vim-endwise'
 
 filetype plugin indent on
