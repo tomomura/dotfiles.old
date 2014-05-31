@@ -78,8 +78,11 @@ export PATH=$PATH:$AIR_HOME/bin:$FLEX_HOME/bin
 
 # Ruby
 # if [[ -s /Users/ozaki/.rvm/scripts/rvm ]] ; then source $HOME/.rvm/scripts/rvm ; fi
-export RBENV_ROOT=/usr/local/var/rbenv
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+# export RBENV_ROOT=/usr/local/var/rbenv
+# if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+# export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="${HOME}/.rbenv/bin:${HOME}/.rbenv/shims:${PATH}"
+eval "$(rbenv init -)"
 
 export REFE_DATA_DIR=/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/share/refe
 
